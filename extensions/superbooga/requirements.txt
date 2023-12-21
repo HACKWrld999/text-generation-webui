@@ -4,3 +4,5 @@ pandas==2.0.3
 posthog==2.4.2
 sentence_transformers==2.2.2
 lxml
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
