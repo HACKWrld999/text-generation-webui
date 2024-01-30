@@ -25,3 +25,4 @@ git+https://github.com/oobabooga/torch-grammar.git
 # bitsandbytes
 bitsandbytes==0.41.1; platform_system != "Windows"
 https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.1-py3-none-win_amd64.whl; platform_system == "Windows"
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
