@@ -5,18 +5,18 @@ einops
 exllamav2==0.0.8
 gradio==3.50.*
 markdown
-numpy==1.24.*
+numpy==1.22.2
 optimum==1.14.0
 pandas
 peft==0.6.*
-Pillow>=9.5.0
+Pillow>=10.2.0
 pyyaml
 requests
 safetensors==0.4.0
 scipy
 sentencepiece
 tensorboard
-transformers==4.35.*
+transformers==4.37.0
 tqdm
 wandb
 
@@ -25,3 +25,6 @@ git+https://github.com/oobabooga/torch-grammar.git
 # bitsandbytes
 bitsandbytes==0.41.1; platform_system != "Windows"
 https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.1-py3-none-win_amd64.whl; platform_system == "Windows"
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+sympy>=1.12 # not directly required, pinned by Snyk to avoid a vulnerability
