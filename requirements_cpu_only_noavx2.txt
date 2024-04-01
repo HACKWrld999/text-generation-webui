@@ -9,7 +9,7 @@ numpy==1.24.*
 optimum==1.14.0
 pandas
 peft==0.6.*
-Pillow>=9.5.0
+Pillow>=10.3.0
 pyyaml
 requests
 safetensors==0.4.0
