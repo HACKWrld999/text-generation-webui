@@ -4,3 +4,4 @@ pandas==2.0.3
 posthog==2.4.2
 sentence_transformers==2.2.2
 lxml
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
